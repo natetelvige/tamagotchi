@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700; /* For bold Poppins */
+}
+
+.my-element {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400; /* For regular Poppins */
+}
+
+
+body {
+  background: #fff0f6;
+  font-family: "poppins", cursive, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 30px;
+  color: #4a2c69;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+#nameInputContainer {
+  margin-bottom: 20px;
+}
+
+#nameInput {
+  font-size: 1.25rem;
+  padding: 5px 10px;
+  border: 2px solid #d96474;
+  border-radius: 6px;
+  outline: none;
+}
+
+button {
+  background: #d96474;
+  border: none;
+  color: white;
+  font-size: 1.1rem;
+  padding: 8px 16px;
+  margin: 8px 6px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #d96474;
+}
+
+#petContainer {
+  background: #ffe6f0;
+  border: 3px solid #d96474;
+  border-radius: 25px;
+  padding: 30px 40px;
+  text-align: center;
+  width: 320px;
+  user-select: none;
+}
+
+#petExpression {
+  font-size: 2rem;
+  margin: 20px 0;
+}
+
+#stats {
+  font-size: 1.1rem;
+  margin: 10px 0;
+}
+
+#message {
+  font-style: italic;
+  margin-top: 15px;
+  height: 26px;
+}
+

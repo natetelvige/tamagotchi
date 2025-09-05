@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Enhanced Tamagotchi</title>
+  <link rel="stylesheet" href="STYLE.CSS" />
+  
+</head>
+<body>
+
+  <h1>My Little Monster 🐾</h1>
+
+  <div id="nameInputContainer">
+    <input id="nameInput" type="text" placeholder="Enter your pet's name" maxlength="12" />
+    <button id="startBtn">Start</button>
+  </div>
+
+  <div id="petContainer" style="display:none;">
+    <div id="petName" style="font-size:1.8rem; font-weight: bold;"></div>
+    <div id="petExpression">(*＾▽＾)</div>
+    <div id="stats">
+      Hunger: <span id="hungerStat">5</span> |
+      Happiness: <span id="happinessStat">5</span> |
+      Energy: <span id="energyStat">5</span>
+    </div>
+    <div>
+      <button id="feedBtn">🍎</button>
+      <button id="playBtn">🎾</button>
+      <button id="petBtn">🐾</button>
+      <button id="sleepBtn">😴</button>
+    </div>
+    <div id="message"></div>
+  </div>
+
+  <script src="SCRIPT.JS"></script>
+</body>
+</html>
